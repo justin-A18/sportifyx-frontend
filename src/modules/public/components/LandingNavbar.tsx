@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { Button } from "@/modules/shared/components/ui/button";
-import { Menu, X, Trophy } from "lucide-react";
+import { AuthLogo } from "@/modules/auth/components/AuthLogo";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export function LandingNavbar() {
@@ -13,12 +14,7 @@ export function LandingNavbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
-            <div className="flex size-9 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-secondary shadow-md">
-              <Trophy className="size-4 text-primary-foreground" />
-            </div>
-            <span className="font-bold tracking-tight">
-              OLIMPIADAS <span className="text-primary">PERU</span>
-            </span>
+            <AuthLogo variant="landing" />
           </Link>
 
           <div className="hidden md:flex items-center gap-8">

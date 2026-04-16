@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  Trophy,
   Mail,
   Phone,
   MapPin,
@@ -10,6 +9,7 @@ import {
   Camera,
 } from "lucide-react";
 import Link from "next/link";
+import { AuthLogo } from "@/modules/auth/components/AuthLogo";
 
 const footerLinks = {
   servicios: [
@@ -39,16 +39,8 @@ export function LandingFooter() {
       <div className="container relative mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           <div className="lg:col-span-2">
-            <Link href="/" className="inline-flex items-center gap-3 mb-6">
-              <div className="flex size-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-secondary shadow-lg">
-                <Trophy className="size-5 text-primary-foreground" />
-              </div>
-              <div>
-                <span className="text-lg font-bold tracking-tight">
-                  OLIMPIADAS
-                </span>
-                <span className="text-lg font-bold text-primary"> PERU</span>
-              </div>
+            <Link href="/" className="inline-block mb-6">
+              <AuthLogo variant="footer" />
             </Link>
             <p className="text-muted-foreground mb-6 max-w-sm">
               La mejor empresa de gestión de eventos deportivos del Perú. Más de
