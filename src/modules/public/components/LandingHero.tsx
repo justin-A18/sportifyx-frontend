@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/modules/shared/components/ui/button";
-import { AuthLogo } from "@/modules/auth/components/AuthLogo";
 import { Trophy, Medal, Users, Calendar } from "lucide-react";
 
 export function LandingHero() {
@@ -27,10 +26,6 @@ export function LandingHero() {
           <span className="text-sm font-medium text-primary">
             Más de 10 años gestionando eventos deportivos
           </span>
-        </div>
-
-        <div className="flex items-center justify-center mb-6">
-          <AuthLogo variant="landing" />
         </div>
 
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
