@@ -1,9 +1,9 @@
 "use client";
 
+import { Menu, X, Zap } from "lucide-react";
 import Link from "next/link";
-import { Button } from "@/modules/shared/components/ui/button";
-import { Menu, X, Trophy, Zap } from "lucide-react";
 import { useState } from "react";
+import { Button } from "@/modules/shared/components/ui/button";
 
 export function LandingNavbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -14,14 +14,14 @@ export function LandingNavbar() {
 				<div className="flex items-center justify-between h-16">
 					<Link href="/" className="flex items-center gap-2">
 						<div className="flex items-center gap-3">
-							<div className="flex size-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primary/60 shadow-lg shadow-primary/30">
+							<div className="flex size-8 sm:size-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primary/60 shadow-lg shadow-primary/30">
 								<Zap
-									className="size-5 text-primary-foreground"
+									className="size-4 sm:size-5 text-primary-foreground"
 									data-icon="inline-start"
 								/>
 							</div>
 							<div className="text-center">
-								<span className="text-xl font-bold tracking-tight text-foreground">
+								<span className="text-lg sm:text-xl font-bold tracking-tight text-foreground">
 									SportifyX
 								</span>
 							</div>

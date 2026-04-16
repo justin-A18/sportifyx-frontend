@@ -73,11 +73,11 @@ export function SportsGrid() {
 					</p>
 				</div>
 
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
 					{sports.map((sport) => (
 						<Card
 							key={sport.name}
-							className={`group relative overflow-hidden border ${sport.borderColor} ${sport.hoverBorder} transition-all duration-300 hover:shadow-lg hover:shadow-${sport.color}/10`}
+							className={`group relative overflow-hidden border ${sport.borderColor} ${sport.hoverBorder} transition-all duration-300 hover:shadow-lg`}
 						>
 							<div
 								className={`absolute inset-0 ${sport.bgColor} opacity-0 group-hover:opacity-100 transition-opacity duration-300`}
