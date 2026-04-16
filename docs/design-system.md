@@ -1,4 +1,4 @@
-# Estadio Digital — Design System
+# SportifyX — Design System
 
 > Sports-first dark UI with energetic blue, green, and amber accents.
 >

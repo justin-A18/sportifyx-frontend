@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /* ==========================================================================
-   ESTADIO DIGITAL — Design System
+   SPORTIFYX — Design System
    ==========================================================================
    A dark-themed sports UI with energetic blue, green, and amber accents.
    Primary:    #3B82F6 — Action, CTAs, links
@@ -132,7 +132,7 @@
 }
 
 /* ==========================================================================
-   DARK MODE — Estadio Digital native theme
+   DARK MODE — SportifyX native theme
    ========================================================================== */
 .dark {
 	/* Backgrounds — Neutral #0F172A canvas */

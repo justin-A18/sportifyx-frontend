@@ -1,4 +1,4 @@
-# Estadio Digital
+# SportifyX
 
 Sports-first web platform. Dark-mode UI built with **Next.js 16**, **Tailwind CSS v4**, **TypeScript**, and **shadcn/ui**.
 

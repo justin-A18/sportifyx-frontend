@@ -13,7 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Estadio Digital",
+	title: "SportifyX",
 	description: "Your sports experience, digitized.",
 };
 
