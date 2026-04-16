@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/modules/shared/components/ui/button";
-import { Trophy, Medal, Users, Calendar } from "lucide-react";
+import { Trophy, Medal, Users, Calendar, Zap } from "lucide-react";
 
 export function LandingHero() {
   return (
@@ -26,6 +26,22 @@ export function LandingHero() {
           <span className="text-sm font-medium text-primary">
             Más de 10 años gestionando eventos deportivos
           </span>
+        </div>
+
+        <div className="flex items-center justify-center mb-6">
+          <div className="flex items-center gap-3">
+            <div className="flex size-14 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primary/60 shadow-lg shadow-primary/30">
+              <Zap
+                className="size-7 text-primary-foreground"
+                data-icon="inline-start"
+              />
+            </div>
+            <div className="text-center">
+              <span className="text-2xl font-bold tracking-tight text-foreground">
+                SportifyX
+              </span>
+            </div>
+          </div>
         </div>
 
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">

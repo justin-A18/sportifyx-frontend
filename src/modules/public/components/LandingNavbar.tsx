@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/modules/shared/components/ui/button";
-import { Menu, X, Trophy } from "lucide-react";
+import { Menu, X, Trophy, Zap } from "lucide-react";
 import { useState } from "react";
 
 export function LandingNavbar() {
@@ -13,20 +13,17 @@ export function LandingNavbar() {
 			<div className="container mx-auto px-4">
 				<div className="flex items-center justify-between h-16">
 					<Link href="/" className="flex items-center gap-2">
-						<div className="flex flex-col items-center gap-3">
-							<div className="flex size-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primary/60 shadow-lg shadow-primary/30">
+						<div className="flex items-center gap-3">
+							<div className="flex size-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primary/60 shadow-lg shadow-primary/30">
 								<Zap
-									className="size-6 text-primary-foreground"
+									className="size-5 text-primary-foreground"
 									data-icon="inline-start"
 								/>
 							</div>
 							<div className="text-center">
-								<h1 className="text-xl font-bold tracking-tight text-foreground">
+								<span className="text-xl font-bold tracking-tight text-foreground">
 									SportifyX
-								</h1>
-								<p className="mt-0.5 text-[11px] font-medium uppercase tracking-widest text-muted-foreground">
-									Kinetic Vault Precision
-								</p>
+								</span>
 							</div>
 						</div>
 					</Link>
