@@ -58,11 +58,42 @@ src/
 
 ## Getting Started
 
+### Requisitos
+
+Antes de iniciar el proyecto, asegúrese de tener instalado:
+
+- **Node.js** en una versión compatible con Next.js 16.
+- **pnpm**, que es el gestor de paquetes usado en el proyecto.
+
+Si no tiene `pnpm` instalado, puede instalarlo con:
+
+```bash
+npm install -g pnpm
+```
+
+### Instalación de dependencias
+
+Después de clonar o descargar el proyecto, ingrese a la carpeta principal y ejecute:
+
+```bash
+pnpm install
+```
+
+Este comando instalará todas las dependencias necesarias definidas en `package.json`.
+
+### Ejecutar en modo desarrollo
+
 ```bash
 pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+### Web alojada
+
+Si no desea instalar el proyecto localmente, puede revisar la versión desplegada en Vercel:
+
+[https://sportifyx-frontend.vercel.app/](https://sportifyx-frontend.vercel.app/)
 
 ## Scripts
 
